@@ -44,8 +44,8 @@ const color = randomColor();
 
 function App() {
   // env
-  // const url = 'https://calendar-json-api.up.railway.app/'
-  const url = 'http://localhost:3002/';
+  const url = 'https://calendar-json-api.up.railway.app/'
+  // const url = 'http://localhost:3002/';
   const date = new Date();
   const minYear = date.getFullYear();
   const maxYear = date.getFullYear() + 5;
